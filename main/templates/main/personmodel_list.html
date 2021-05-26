@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello</h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>Сохранить пользователя</button>
+</form>
+{{ ответ }}
+
+{% for personmodel in personmodel_list %}
+    {{ personmodel.username }}<br>
+    {{ personmodel }}
+{% endfor %}
+</body>
+</html>
