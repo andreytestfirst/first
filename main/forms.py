@@ -12,3 +12,4 @@ class PersonForm(ModelForm):
     class Meta:
         fields = ['email', 'first_name', 'username', 'last_name', 'password']
         model = PersonModel
+#t
